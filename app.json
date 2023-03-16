@@ -57,17 +57,9 @@
         "value": "False",
         "required": false
       },
-      "HEROKU_API_KEY": {
-        "description": "Your heroku api key, get it from https://dashboard.heroku.com/account/applications/authorizations/new.",
-        "required": false
-      },
-      "HEROKU_APP_NAME": {
-        "description": "Heroku App Name.",
-        "required": false
-      },
       "STARTUP_STREAM": {
         "description": "YouTube live / Direct link to a video / Telegram link to a YouTube playlist.(Read the README for more info.) ",
-        "value": "https://youtu.be/zcrUCvBD16k",
+        "value": "https://youtu.be/CW4ZfVkcQPk,
         "required": false
       },
       "REPLY_MESSAGE": {
