@@ -123,14 +123,10 @@ class Config:
         LOG_GROUP=int(LOG_GROUP)
     else:
         LOG_GROUP=None
-    if not API_KEY or \
-       not APP_NAME:
-       HEROKU_APP=None
     else:
-       HEROKU_APP=heroku3.from_key(API_KEY).apps()[APP_NAME]
-
-
-    if EDIT_TITLE in ["NO", 'False']:
+       
+     
+    if  EDIT_TITLE in ["NO", 'False']:
         EDIT_TITLE=False
         LOGGER.info("Title Editing turned off")
     if REPLY_MESSAGE:
